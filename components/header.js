@@ -24,6 +24,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="/styleComponent">
+          <a> Style Component </a>
+        </Link>
+      </li>
+      <li>
         <Link href="/login">
           <a> Login </a>
         </Link>
