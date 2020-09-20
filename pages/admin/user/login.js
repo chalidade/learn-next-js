@@ -1,4 +1,5 @@
 import Header from "../../../components/admin/header";
+import Link from "next/link";
 
 const Login = () => (
   <>
@@ -45,9 +46,11 @@ const Login = () => (
                   </div>
                 </div>
                 <div className="col-4">
-                  <button type="submit" className="btn btn-primary btn-block">
-                    Sign In
-                  </button>
+                  <Link href="../../admin/dashboard">
+                    <button type="submit" className="btn btn-primary btn-block">
+                      Sign In
+                    </button>
+                  </Link>
                 </div>
               </div>
             </form>

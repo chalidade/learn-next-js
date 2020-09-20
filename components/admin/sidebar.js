@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 const Sidebar = () => (
   <aside className="main-sidebar sidebar-light-primary margin-top--60">
     <a href="index3.html" className="brand-link">
       <img
-        src="dist/img/AdminLTELogo.png"
+        src="../../dist/img/AdminLTELogo.png"
         alt="AdminLTE Logo"
-        className="brand-image img-circle elevation-3"
+        className="brand-image img-circle elevation-1"
       />
       <span className="brand-text font-weight-light">Lerero</span>
     </a>
@@ -13,15 +15,15 @@ const Sidebar = () => (
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
         <div className="image">
           <img
-            src="dist/img/user2-160x160.jpg"
-            className="img-circle elevation-2"
+            src="../../dist/img/user2-160x160.jpg"
+            className="img-circle elevation-1"
             alt="User Image"
           />
         </div>
         <div className="info">
-          <a href="#" className="d-block">
-            Alexander Pierce
-          </a>
+          <Link href="../admin/user/profile">
+            <a className="d-block">Alexander Pierce</a>
+          </Link>
         </div>
       </div>
 
@@ -54,6 +56,14 @@ const Sidebar = () => (
                 </a>
               </li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <Link href="../admin/user/login">
+              <a class="nav-link">
+                <i class="nav-icon fa fa-sign-out-alt"></i>
+                <p>Logout</p>
+              </a>
+            </Link>
           </li>
         </ul>
       </nav>
