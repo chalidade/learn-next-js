@@ -1,49 +1,12 @@
-import Link from "next/link";
-
 const Header = () => (
   <header>
-    <ul>
-      <li>
-        <Link href="/">
-          <a> Home </a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a> About </a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/contact">
-          <a> Contact </a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/css">
-          <a> CSS </a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/styleComponent">
-          <a> Style Component </a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/login">
-          <a> Login </a>
-        </Link>
-      </li>
-      <li>
-        <Link as="/post/1" href="/post/[id]">
-          <a> First Post </a>
-        </Link>
-      </li>
-      <li>
-        <Link as="/post/2" href="/post/[id]">
-          <a> Second Post </a>
-        </Link>
-      </li>
-    </ul>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+    <title>Lerero Project</title>
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <link href="dist/css/google-font.css" rel="stylesheet" />
   </header>
 );
 
