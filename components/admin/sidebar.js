@@ -1,5 +1,5 @@
 const Sidebar = () => (
-  <aside className="main-sidebar sidebar-dark-primary elevation-4">
+  <aside className="main-sidebar sidebar-light-primary margin-top--60">
     <a href="index3.html" className="brand-link">
       <img
         src="dist/img/AdminLTELogo.png"
