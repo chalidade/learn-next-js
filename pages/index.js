@@ -1,10 +1,12 @@
 import Header from "../components/header";
+import Navbar from "../components/navbar";
 import Sidebar from "../components/sidebar";
 import Footer from "../components/footer";
 
 const Homepage = () => (
   <>
     <Header />
+    <Navbar />
     <body className="hold-transition sidebar-mini margin-top--60">
       <div className="wrapper">
         <Sidebar />
