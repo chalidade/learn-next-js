@@ -19,6 +19,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="/css">
+          <a> CSS </a>
+        </Link>
+      </li>
+      <li>
         <Link href="/login">
           <a> Login </a>
         </Link>
