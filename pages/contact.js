@@ -1,8 +1,10 @@
 import Header from "../components/header";
 
-export default () => (
+const Contact = () => (
   <>
     <Header />
     <h1> Contact </h1>
   </>
 );
+
+export default Contact;
