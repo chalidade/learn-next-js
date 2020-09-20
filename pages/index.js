@@ -1,15 +1,13 @@
 import Header from "../components/header";
-import Navbar from "../components/navbar";
-import MainSidebar from "../components/mainSidebar";
+import Sidebar from "../components/sidebar";
 import Footer from "../components/footer";
 
 const Homepage = () => (
   <>
     <Header />
-    <Navbar />
     <body className="hold-transition sidebar-mini margin-top--60">
       <div className="wrapper">
-        <MainSidebar />
+        <Sidebar />
         <div className="content-wrapper">
           <div className="content-header">
             <div className="container-fluid">

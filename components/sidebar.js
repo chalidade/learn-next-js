@@ -1,4 +1,4 @@
-const MainSidebar = () => (
+const Sidebar = () => (
   <aside className="main-sidebar sidebar-dark-primary elevation-4">
     <a href="index3.html" className="brand-link">
       <img
@@ -6,7 +6,7 @@ const MainSidebar = () => (
         alt="AdminLTE Logo"
         className="brand-image img-circle elevation-3"
       />
-      <span className="brand-text font-weight-light">AdminLTE 3</span>
+      <span className="brand-text font-weight-light">Lerero</span>
     </a>
 
     <div className="sidebar">
@@ -36,7 +36,7 @@ const MainSidebar = () => (
             <a href="#" className="nav-link active">
               <i className="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Dashboard
                 <i className="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -55,19 +55,10 @@ const MainSidebar = () => (
               </li>
             </ul>
           </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link">
-              <i className="nav-icon fas fa-th"></i>
-              <p>
-                Simple Link
-                <span className="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
   </aside>
 );
 
-export default MainSidebar;
+export default Sidebar;
