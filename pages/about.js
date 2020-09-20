@@ -3,6 +3,6 @@ import Header from "../components/header";
 export default () => (
   <>
     <Header />
-    <h1> Index </h1>
+    <h1> About </h1>
   </>
 );
