@@ -21,7 +21,7 @@ const Sidebar = () => (
           />
         </div>
         <div className="info">
-          <Link href="../admin/user/profile">
+          <Link as="/admin/user/profile" href="/admin/user/profile">
             <a className="d-block">Alexander Pierce</a>
           </Link>
         </div>
@@ -34,31 +34,16 @@ const Sidebar = () => (
           role="menu"
           data-accordion="false"
         >
-          <li className="nav-item has-treeview menu-open">
-            <a href="#" className="nav-link active">
-              <i className="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Dashboard
-                <i className="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul className="nav nav-treeview">
-              <li className="nav-item">
-                <a href="#" className="nav-link active">
-                  <i className="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  <i className="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <Link as="/admin/dashboard" href="/admin/dashboard">
+              <a class="nav-link">
+                <i class="nav-icon fa fa-tachometer-alt"></i>
+                <p>Dashboard</p>
+              </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <Link href="../admin/user/login">
+            <Link as="/admin/user/login" href="/admin/user/login">
               <a class="nav-link">
                 <i class="nav-icon fa fa-sign-out-alt"></i>
                 <p>Logout</p>

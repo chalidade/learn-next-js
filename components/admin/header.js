@@ -14,7 +14,7 @@ const Header = () => (
       href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css"
     />
 
-    <link rel="stylesheet" href="../../dist/ionicons.min.css" />
+    <link rel="stylesheet" href="../../dist/css/ionicons.min.css" />
     <link rel="stylesheet" href="../../dist/css/adminlte.min.css" />
     <link rel="stylesheet" href="../../dist/css/custom.css" />
     <link rel="stylesheet" href="../../dist/css/google-font.css" />
