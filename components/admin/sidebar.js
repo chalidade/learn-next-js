@@ -2,14 +2,16 @@ import Link from "next/link";
 
 const Sidebar = () => (
   <aside className="main-sidebar sidebar-light-primary margin-top--60">
-    <a href="index3.html" className="brand-link">
-      <img
-        src="../../dist/img/AdminLTELogo.png"
-        alt="AdminLTE Logo"
-        className="brand-image img-circle elevation-1"
-      />
-      <span className="brand-text font-weight-light">Lerero</span>
-    </a>
+    <Link as="/admin/dashboard" href="/admin/dashboard">
+      <a className="brand-link">
+        <img
+          src="../../dist/img/AdminLTELogo.png"
+          alt="AdminLTE Logo"
+          className="brand-image img-circle elevation-1"
+        />
+        <span className="brand-text font-weight-light">Lerero</span>
+      </a>
+    </Link>
 
     <div className="sidebar">
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
